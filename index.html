@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./index.css">
+	<title>Dashboard</title>
+</head>
+<body>
+	<div id="container">
+		<div id="members" class="flex-col border">
+			<h1 class="white">Members</h1>
+			<div id="inner-members" class="flex-row">
+				<div id="member" class="flex-col">
+					<div id="inner-member">
+						<div id="ticket-total" class="flex-col">
+							<div id="assigned" class="count-2 underlay-bar">
+								<div class="overlay-bar">assigned</div>
+							</div>
+							<div id="design" class="count-4 underlay-bar">
+								<div class="overlay-bar">design</div>
+							</div>
+							<div id="development" class="count-3 underlay-bar">
+								<div class="overlay-bar">development</div>
+							</div>
+						</div>
+						<div id="badges" class="flex-col">
+							<div id="tickets-closed" class="underlay-badge">
+								<span class="fa-stack fa-3x">
+									<i class="fa fa-star-o fa-stack-2x"></i>
+									<p class="fa-stack-1x badge-text white">14</p>
+								</span>
+								<div class="calendar-text overlay-badge white">tickets closed<br/>in last 7 days</div>
+							</div>
+							<div id="ticket-age" class="underlay-badge">
+								<span class="fa-stack fa-3x">
+  									<i class="fa fa-calendar-o fa-stack-2x age"></i>
+  									<p class="fa-stack-1x calendar-text white">8</p>  									
+								</span>
+								<div class="calendar-text overlay-badge white">average ticket age</div>
+							</div>
+						</div>
+					</div>
+					<div class="member-name white"><h3>Thomas</h3></div>
+				</div>
+				<div id="member" class="flex-col">
+					<div id="inner-member">
+						<div id="ticket-total" class="flex-col">
+							<div id="assigned" class="count-0 underlay-bar">
+								<div class="overlay-bar">assigned</div>
+							</div>
+							<div id="design" class="count-5 underlay-bar">
+								<div class="overlay-bar">design</div>
+							</div>
+							<div id="development" class="count-1 underlay-bar">
+								<div class="overlay-bar">development</div>
+							</div>
+						</div>
+						<div id="badges" class="flex-col">
+							<div id="tickets-closed" class="underlay-badge">
+								<span class="fa-stack fa-3x">
+									<i class="fa fa-star-o fa-stack-2x"></i>
+									<p class="fa-stack-1x badge-text white">12</p>
+								</span>
+								<div class="calendar-text overlay-badge white">tickets closed<br/>in last 7 days</div>
+							</div>
+							<div id="ticket-age" class="underlay-badge">
+								<span class="fa-stack fa-3x">
+  									<i class="fa fa-calendar-o fa-stack-2x age"></i>
+  									<p class="fa-stack-1x calendar-text white">15</p>
+								</span>
+								<div class="calendar-text overlay-badge white">average ticket age</div>
+							</div>
+						</div>
+					</div>
+					<div class="member-name white"><h3>Stephanie</h3></div>
+				</div>
+				<div id="member" class="flex-col">
+					<div id="inner-member">
+						<div id="ticket-total" class="flex-col">
+							<div id="assigned" class="count-3 underlay-bar">
+								<div class="overlay-bar">assigned</div>
+							</div>
+							<div id="design" class="count-3 underlay-bar">
+								<div class="overlay-bar">design</div>
+							</div>
+							<div id="development" class="count-6 underlay-bar">
+								<div class="overlay-bar">development</div>
+							</div>
+						</div>
+						<div id="badges" class="flex-col">
+							<div id="tickets-closed" class="underlay-badge">
+								<span class="fa-stack fa-3x">
+									<i class="fa fa-star-o fa-stack-2x"></i>
+									<p class="fa-stack-1x badge-text white">8</p>
+								</span>
+								<div class="calendar-text overlay-badge white">tickets closed<br/>in last 7 days</div>
+							</div>
+							<div id="ticket-age" class="underlay-badge">
+								<span class="fa-stack fa-3x">
+  									<i class="fa fa-calendar-o fa-stack-2x age"></i>
+  									<p class="fa-stack-1x calendar-text white">17</p>
+								</span>
+								<div class="calendar-text overlay-badge white">average ticket age</div>
+							</div>
+						</div>
+					</div>
+					<div class="member-name white"><h3>Juan</h3></div>
+				</div>
+			</div>
+		</div>
+
+		<div id="team" class="flex-col border">
+			<h1 class="white">Team</h1>
+			<div class="flex-col" id="inner-team">
+				<div id="open-tickets" class="underlay-badge">
+					<span id=fake-bar class="fa fa-bar-chart big-icon fake-bar"></span>
+					<div class="overlay-badge white">ticket totals over time</div>
+				</div>
+				<div id="new-tickets" class="underlay-badge">
+					<span class="fa-stack fa-3x">
+						<i class="fa fa-circle-o fa-stack-2x"></i>
+						<p class="fa-stack-1x white badge-text white">14</p>
+					</span>
+					<div class="overlay-badge white">tickets opened<br/>in last 14 days</div>
+				</div>
+				<div id="team-ticket-age" class="underlay-badge">
+					<span class="fa-stack fa-3x">
+						<i class="fa fa-calendar-o fa-stack-2x age"></i>
+						<p class="fa-stack-1x calendar-text white">33</p>
+					</span>
+					<div class="overlay-badge white">average ticket age</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

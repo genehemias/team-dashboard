@@ -1,0 +1,189 @@
+.border {
+	border: 1px solid white;
+}
+
+body {
+	font-family: sans-serif;
+	text-align: center;
+	background-color: black;
+	/*margin: 0;
+	padding: 0;*/
+}
+
+#container {
+	display: flex;
+	max-width: 100%;
+}
+
+i {
+	/*font-size: 60px;*/
+	color: #e80000;
+}
+
+.flex-col {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-row {
+	display: flex;
+	display: row;
+}
+
+.grow-1 {
+	/*flex-grow: 1;*/
+	height: 5em;
+}
+
+.white {
+	color: white;
+}
+
+.big-icon {
+	font-size: 160px;
+}
+
+.age {
+	color: #043493;
+}
+
+.overlay-bar {
+	position: absolute 0 0 0 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #f4f39a;
+}
+
+.underlay-bar:hover .overlay-bar {
+	opacity: 1;
+}
+
+.overlay-badge {
+	position: absolute 0 0 0 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+}
+
+.underlay-badge:hover .overlay-badge{
+	opacity: 1
+}
+
+#members {
+	flex-grow: 3;
+}
+
+#inner-members {
+	justify-content: space-around;
+}
+
+#member {
+	flex-grow: 1;
+	justify-content: center;
+	border: 1px solid black;
+}
+
+#inner-member {
+	display: flex;
+	justify-content: space-around;
+}
+
+#badges {
+	justify-content: space-around;
+}
+
+.calendar-text {
+	margin-top: .3em
+}
+
+.badge-text {
+	margin-top: -.02em;
+}
+
+.member-name {
+	align-content: center;
+	border: 1px solid black;
+}
+
+#ticket-total {
+	justify-content: flex-end;
+	height: 30em;
+	max-width: 75px;
+}
+
+#assigned {
+	background-color: #42a4f4;
+}
+
+
+#design {
+	background-color: #9d5dd8;
+}
+
+#development {
+	background-color: #ff9b19;
+}
+
+#team {
+	flex-grow: 1;
+}
+
+#inner-team {
+	justify-content: space-around;
+	height: 100%;
+}
+
+.fake-bar {
+	color: #7c8ba3;
+}
+/*
+#open-tickets {
+	size: auto;
+}
+*/
+.count-0 {
+	display: none;
+}
+
+.count-1 {
+	height: 20px;
+}
+
+.count-2 {
+	height: 40px;
+}
+
+.count-3 {
+	height: 60px;
+}
+
+.count-4 {
+	height: 80px;
+}
+
+.count-5 {
+	height: 100px;
+}
+
+.count-6 {
+	height: 120px;
+}
+
+.count-7 {
+	height: 140px;
+}
+
+.count-8 {
+	height: 160px;
+}
+
+.count-9 {
+	height: 180px;
+}
+
+.count-10 {
+	height: 200px;
+}
